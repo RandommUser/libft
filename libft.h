@@ -14,9 +14,9 @@
 # define LIBFT_H
 # define BUFF_SIZE 64
 # define FD_LIMIT 4864
-#ifndef PRECISION
-	# define PRECISION long double
-#endif
+# ifndef PRECISION
+#  define PRECISION long double
+# endif
 # include <string.h>
 
 typedef struct	s_list
