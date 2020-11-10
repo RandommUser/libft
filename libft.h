@@ -158,6 +158,7 @@ t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 t_rgb			rgb_conv(long color);
 t_rgb			rgb_calc(t_rgb color1, t_rgb color2, char type);
+t_rgb			rgb_ope(t_rgb color, char op, double num);
 
 char			**ft_strsplit(char const *s, char c);
 
