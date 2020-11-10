@@ -14,6 +14,12 @@
 # define LIBFT_H
 # define BUFF_SIZE 64
 # define FD_LIMIT 4864
+
+/*
+** You can change the variable type for Matrix and Vector functions.
+** To do that define PRECISION in your project header before calling libft.h
+*/
+
 # ifndef PRECISION
 #  define PRECISION long double
 # endif
