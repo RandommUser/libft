@@ -14,6 +14,7 @@
 # define LIBFT_H
 # define BUFF_SIZE 64
 # define FD_LIMIT 4864
+# define DECIMAL_SPLIT "."
 
 /*
 ** You can change the variable type for Matrix and Vector functions.
@@ -182,6 +183,7 @@ char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s);
 char			*ft_itoa(int n);
 char			*ft_itoa_base(long value, int base);
+char			*ft_fitoa(double val, int prec);
 char			*ft_hxdm(long n);
 
 char			base_conv(long value, int base);
@@ -229,5 +231,7 @@ long			ft_power_to(long num, int power);
 long			ft_power_base(long num, int power, int base);
 
 float			ft_fabs(float c);
+
+double			ft_pow(double val, int power);
 
 #endif
